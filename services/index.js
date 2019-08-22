@@ -13,5 +13,5 @@ app.use('/api/user', require('./routes/api/user'));
 
 const PORT = 5000;
 app.listen(PORT, () => {
-  console.log(`Server started on PORT : ${PORT}`);
+  console.log(`Services Server started on : http://localhost:${PORT}`);
 });

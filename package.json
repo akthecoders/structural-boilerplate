@@ -4,7 +4,10 @@
   "description": "Boilerplate of structure for work",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "services": "npm start --prefix services",
+    "app": "concurrently \"npm run services\" \"npm run server\" \"npm run client\""
   },
   "author": "Akshay Kumar",
   "license": "MIT",
