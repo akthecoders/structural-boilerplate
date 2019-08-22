@@ -1,13 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Server required by client to interact",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Akshay Kumar",
+  "license": "MIT",
   "dependencies": {
     "apollo-datasource-rest": "^0.6.1",
     "apollo-server": "^2.8.2",
