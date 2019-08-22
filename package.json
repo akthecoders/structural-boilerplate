@@ -1,0 +1,18 @@
+{
+  "name": "dent-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate of structure for work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "eslint": "^6.2.1"
+  }
+}
