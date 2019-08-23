@@ -1,9 +1,8 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const path = require('path');
-
+const config = require('config');
 const app = express();
-
 connectDB();
 
 app.use(express.json({ extended: false }));
@@ -15,3 +14,5 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Services Server started on : http://localhost:${PORT}`);
 });
+
+module.exports = app;
